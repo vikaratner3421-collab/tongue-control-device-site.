@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Устройство управления движениями языка</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f5f5; }
+        header { background:#4CAF50; color:white; padding:20px 0; text-align:center; }
+        nav a { color:white; margin: 0 15px; text-decoration:none; font-weight:bold; }
+        main { padding: 20px; max-width:900px; margin:auto; background:white; }
+        h1, h2 { color:#333; }
+        .banner { width:100%; max-height:300px; object-fit:cover; margin-bottom:20px; }
+        .developers, .reviews, .contact { margin-top:30px; padding:20px; background:#eef; border-radius:5px; }
+        .review { border-bottom:1px solid #ccc; padding:10px 0; }
+        form input, form textarea { width:100%; padding:10px; margin:5px 0; }
+        form button { padding:10px 20px; background:#4CAF50; color:white; border:none; cursor:pointer; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Устройство управления движениями языка</h1>
+        <nav>
+            <a href="#about">О устройстве</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#developers">Разработчики</a>
+            <a href="#contact">Контакты</a>
+        </nav>
+    </header>
+    <main>
+        <img src="images/banner.png" alt="Баннер устройства" class="banner">
+        <section id="about">
+            <h2>О устройстве</h2>
+            <p>Это инновационное устройство позволяет людям с параличом управлять техникой и коляской с помощью движений языка. Система точного отслеживания языка и сенсорных команд делает управление простым и безопасным.</p>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <h2>Отзывы пользователей</h2>
+            <div class="review">
+                <strong>Алексей П.</strong> – «Устройство полностью изменило мою жизнь, я могу передвигаться без посторонней помощи.»
+            </div>
+            <div class="review">
+                <strong>Марина С.</strong> – «Очень удобное и простое в использовании. Рекомендую всем, кто имеет ограниченные возможности.»
+            </div>
+            <div class="review">
+                <strong>Игорь К.</strong> – «Приятно удивлен точностью системы. Все движения отслеживаются мгновенно.»
+            </div>
+            <div class="review">
+                <strong>Екатерина Л.</strong> – «Отличное решение для людей с ограниченной подвижностью. Рада, что это изобретение появилось.»
+            </div>
+            <div class="review">
+                <strong>Виктория Т.</strong> – «Наконец-то я могу управлять своей коляской без помощи родственников. Спасибо разработчикам!»  
+            </div>
+        </section>
+
+        <section id="developers" class="developers">
+            <h2>Разработчики</h2>
+            <p>Машкова Екатерина Олеговна</p>
+            <p>Ратнер Виктория Андреевна</p>
+            <p>Татаринова Елизавета Александровна</p>
+            <p>Телефон для связи: +375336642085</p>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Связаться с нами</h2>
+            <form action="mailto:vikaratner3421@gmail.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Ваше имя" required>
+                <input type="email" name="email" placeholder="Ваш email" required>
+                <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
